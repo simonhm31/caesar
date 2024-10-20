@@ -1,7 +1,5 @@
-
 let INPUT = "azaz";
 let SHIFT = 26;
-
 
 const alphabetString = "abcdefghijklmnopqrstuvwxyz";
 
