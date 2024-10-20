@@ -1,6 +1,6 @@
 
-let INPUT = "z";
-let SHIFT = 1;
+let INPUT = "azaz";
+let SHIFT = 26;
 
 
 const alphabetString = "abcdefghijklmnopqrstuvwxyz";
@@ -9,7 +9,7 @@ const alphabetString = "abcdefghijklmnopqrstuvwxyz";
 let encrypt = function(INPUT){
   let OUTPUT = [];
   for(let i = 0; i < INPUT.length; i++){
-    OUTPUT[i] = alphabetString[((alphabetString.indexOf(INPUT[i])) + SHIFT)];
+    console.log(alphabetString[((((alphabetString.indexOf(INPUT[i]))) + (SHIFT % 25)) % 26)]);
   }
   OUTPUT = OUTPUT.join('')
   return OUTPUT;
