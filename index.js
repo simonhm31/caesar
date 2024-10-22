@@ -1,5 +1,5 @@
-let INPUT = "this is a sentence";
-let SHIFT = -25;
+let INPUT = "this is a secret code";
+let SHIFT = 1;
 
 const alphabetString = "abcdefghijklmnopqrstuvwxyz";
 
