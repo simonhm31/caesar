@@ -15,9 +15,17 @@ body {
 
 #vertical-line {
   border-left: 4px solid black;
-  height: 45%;
-  margin-top: 15px;
+  height: 100%;
+  margin-top: 20vh;
   position: absolute;
   left: 47%;
   top: 0px;
+}
+
+.navbar {
+  background-color: beige;
+  margin: auto;
+  width: 70%;
+  height: 10vh;
+  border: 1px solid black;
 }
