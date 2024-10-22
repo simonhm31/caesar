@@ -4,8 +4,8 @@ body {
 
 .encrypt-or-decrypt-button {
   margin: auto;
-  text-align: center;
-  margin-bottom: 150px;
+  display: flex;
+  flex-direction: row;
 }
 
 .flex {
@@ -16,16 +16,19 @@ body {
 #vertical-line {
   border-left: 4px solid black;
   height: 100%;
-  margin-top: 20vh;
+  margin-top: 17vh;
   position: absolute;
-  left: 47%;
-  top: 0px;
 }
 
-.navbar {
-  background-color: beige;
-  margin: auto;
-  width: 70%;
-  height: 10vh;
+
+.btn.btn-primary {
+  height: 7vh;
+  justify-content: center;
+  width: 13vw;
   border: 1px solid black;
+  margin-top: 40px;
+  display: block;
+  white-space: normal;
+  word-wrap :break-word;
+
 }
