@@ -1,25 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./index.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-  <div class="flex">
-    <div id="vertical-line"></div>
-    <div class="encrypt-or-decrypt-button">
-      <button type="button" class="btn btn-primary btn-lg">Large button</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caesar Cipher</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand">
+        <img
+          src="/column.png"
+          width="50"
+          height="50"
+          class="d-inline-block align-top"
+          alt=""
+        />
+        <h2>Caesar Cipher</h2>
+      </a>
+    </nav>
+
+    <div class="textareas">
+      <div class="encryptionSide">
+        <div class="textarea-heading">
+          <h2>Encryption</h2>
+        </div>
+        <textarea name="" id="" cols="40" rows="20"></textarea>
+      </div>
+
+      <button type="button" class="btn btn-primary btn-lg">
+        Large button
+      </button>
+      <button type="button" class="btn btn-secondary">
+        Large button
+      </button>
+
+      <div class="decryptionSide">
+        <div class="textarea-heading">
+          <h2>Decryption</h2>
+        </div>
+        <textarea name="" id="" cols="40" rows="20"></textarea>
+      </div>
     </div>
-    
-  </div>
-  
-</body>
-<script>
-  document.getElementById("")
-</script>
+  </body>
+  <script>
+    document.getElementById("");
+  </script>
 </html>

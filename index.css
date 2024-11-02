@@ -6,24 +6,41 @@ body {
   
 }
 
-.encrypt-or-decrypt-button {
-  margin: auto;
-  text-align: center;
-  margin-bottom: 150px;
-  display: flex;
-  align-items: center;
-}
-
 .flex {
   display: flex;
   flex-direction: column;
 }
 
-#vertical-line {
-  border-left: 4px solid black;
-  height: 45%;
-  margin-top: 15px;
-  position: absolute;
-  left: 47%;
-  top: 0px;
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  border: 1px solid black;
+}
+
+.textareas {
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+
+.textarea-heading {
+  background-color: white;
+  padding: 5px;
+  border: 2px dotted black;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.btn {
+  height: 120px;
+  width: 150px;
+  text
 }
